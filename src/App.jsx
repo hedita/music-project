@@ -1,8 +1,15 @@
 import ReactDOM from "react-dom/client";
-import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home/Home";
 
 const App = () => {
-  return <div>hi</div>;
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
+  );
 };
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
