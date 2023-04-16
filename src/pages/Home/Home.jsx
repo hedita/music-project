@@ -5,9 +5,9 @@ import "./Home.scss";
 const Home = () => {
   return (
     <div className="wrapper">
-		    <Header />
-				<div className="content">
-				<aside className="sidebar">
+      <Header />
+      <div className="content">
+        <aside className="sidebar">
           <ul>
             <li>sidebar</li>
             <li>sidebar</li>
@@ -16,15 +16,14 @@ const Home = () => {
             <li>sidebar</li>
           </ul>
         </aside>
-				<ul className="music-list">
-        <li>music</li>
-        <li>music</li>
-        <li>music</li>
-        <li>music</li>
-        <li>music</li>
-      </ul>
-				</div>
-   
+        <ul className="music-list">
+          <li>music</li>
+          <li>music</li>
+          <li>music</li>
+          <li>music</li>
+          <li>music</li>
+        </ul>
+      </div>
     </div>
   );
 };
@@ -36,7 +35,11 @@ export default Home;
   <article>
     <h1>Welcome</h1>
     <p>Hi!</p>
-  </article> 
-  <aside><ul><li>Sidebar</li></ul></aside>
+  </article>
+  <aside>
+    <ul>
+      <li>Sidebar</li>
+    </ul>
+  </aside>
   <footer>Footer</footer>
-</div>
+</div>;
