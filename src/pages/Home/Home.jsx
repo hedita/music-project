@@ -11,7 +11,7 @@ const Home = () => {
       <div className="content">
         <aside className="sidebar">
           <Sidebar />
-				</aside>
+        </aside>
         <MusicList />
       </div>
     </div>
