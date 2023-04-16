@@ -1,13 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Header.scss";
+import "../../pages/Home/Home"
 
 const Header = () => {
-  return (
-    <Link className="main-title" to="/">
-      <h1>Header</h1>
-    </Link>
-  );
+  return <h1 className="main-title">Header</h1>;
 };
 
 export default Header;

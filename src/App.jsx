@@ -1,12 +1,12 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./components/Header/Header";
+import Home from "./pages/Home/Home";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Header />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );
