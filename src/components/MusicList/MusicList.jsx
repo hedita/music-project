@@ -1,5 +1,5 @@
 import React from "react";
-import "./MusicList.scss"
+import "./MusicList.scss";
 
 const MusicList = () => {
   return (
@@ -9,7 +9,7 @@ const MusicList = () => {
       <li>music</li>
       <li>music</li>
       <li>music</li>
-			<li>music</li>
+      <li>music</li>
       <li>music</li>
       <li>music</li>
       <li>music</li>
