@@ -17,17 +17,3 @@ const Home = () => {
 };
 
 export default Home;
-
-<div class="wrapper">
-  <header>Header</header>
-  <article>
-    <h1>Welcome</h1>
-    <p>Hi!</p>
-  </article>
-  <aside>
-    <ul>
-      <li>Sidebar</li>
-    </ul>
-  </aside>
-  <footer>Footer</footer>
-</div>;
