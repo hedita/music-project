@@ -1,6 +1,8 @@
 import React, { Fragment } from "react";
 import Header from "../../components/Header/Header";
 import "./Home.scss";
+import MusicList from "../../components/MusicList/MusicList";
+import Sidebar from "../../components/Sidebar/Sidebar";
 
 const Home = () => {
   return (
@@ -8,21 +10,9 @@ const Home = () => {
       <Header />
       <div className="content">
         <aside className="sidebar">
-          <ul>
-            <li>sidebar</li>
-            <li>sidebar</li>
-            <li>sidebar</li>
-            <li>sidebar</li>
-            <li>sidebar</li>
-          </ul>
-        </aside>
-        <ul className="music-list">
-          <li>music</li>
-          <li>music</li>
-          <li>music</li>
-          <li>music</li>
-          <li>music</li>
-        </ul>
+          <Sidebar />
+				</aside>
+        <MusicList />
       </div>
     </div>
   );
