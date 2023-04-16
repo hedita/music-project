@@ -9,9 +9,7 @@ const Home = () => {
     <div className="wrapper">
       <Header />
       <div className="content">
-        <aside className="sidebar">
-          <Sidebar />
-        </aside>
+        <Sidebar />
         <MusicList />
       </div>
     </div>
