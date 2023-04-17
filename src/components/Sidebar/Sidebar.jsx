@@ -4,19 +4,19 @@ import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   return (
-    <aside className="sidebar">
-      <ul>
-        <li className="sidebar-iem">
-          <Link to={"/"}>Home</Link>
+    <aside>
+      <ul className="sidebar">
+        <li className="sidebar-item">
+          <Link className="sidebar-item-link" to={"/"}>Home</Link>
         </li>
-        <li>
-          <Link to="/PlayLists">PlayLists</Link>
+        <li className="sidebar-item">
+          <Link className="sidebar-item-link" to="/PlayLists">PlayLists</Link>
         </li>
-        <li>
-          <Link to="/Singles">Singles</Link>
+        <li className="sidebar-item">
+          <Link className="sidebar-item-link" to="/Singles">Singles</Link>
         </li>
-        <li>
-          <Link to="/Albums">Albums</Link>
+        <li className="sidebar-item">
+          <Link className="sidebar-item-link" to="/Albums">Albums</Link>
         </li>
       </ul>
     </aside>
