@@ -1,19 +1,23 @@
 import React from "react";
+import "./Albums.scss"
 
 const Albums = () => {
   return (
-    <ul className="music-list">
-      <li>music</li>
-      <li>music</li>
-      <li>music</li>
-      <li>music</li>
-      <li>music</li>
-      <li>music</li>
-      <li>music</li>
-      <li>music</li>
-      <li>music</li>
-      <li>music</li>
-    </ul>
+    <>
+      <h1 className="title">Albums</h1>
+      <ul className="music-list">
+        <li>music</li>
+        <li>music</li>
+        <li>music</li>
+        <li>music</li>
+        <li>music</li>
+        <li>music</li>
+        <li>music</li>
+        <li>music</li>
+        <li>music</li>
+        <li>music</li>
+      </ul>
+    </>
   );
 };
 
