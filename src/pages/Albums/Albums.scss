@@ -1,4 +1,6 @@
+@import "../../components";
+
 .title {
-  border-bottom: 4px solid white;
-  margin-bottom: 10px;
+  border-bottom: $sizing-xs solid $secondary-color;
+  margin-bottom: $sizing-s;
 }

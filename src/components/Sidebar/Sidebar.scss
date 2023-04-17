@@ -1,8 +1,10 @@
+@import "../../components/Variables.scss";
+
 .sidebar-item {
-  line-height: 30px;
+  line-height: $sizing-xl;
 }
 
 .sidebar-item-link {
   text-decoration: none;
-  color: white;
+  color: $secondary-color;
 }
