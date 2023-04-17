@@ -2,5 +2,9 @@
 
 .playlist-title {
   border-bottom: $sizing-xs solid $secondary-color;
-  margin-bottom: $sizing-s;
+  margin-bottom: $sizing-m;
+}
+
+.playlist-item {
+  margin-bottom: $sizing-m;
 }
