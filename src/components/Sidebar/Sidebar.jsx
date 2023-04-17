@@ -7,16 +7,24 @@ const Sidebar = () => {
     <aside>
       <ul className="sidebar">
         <li className="sidebar-item">
-          <Link className="sidebar-item-link" to={"/"}>Home</Link>
+          <Link className="sidebar-item-link" to={"/"}>
+            Home
+          </Link>
         </li>
         <li className="sidebar-item">
-          <Link className="sidebar-item-link" to="/PlayLists">PlayLists</Link>
+          <Link className="sidebar-item-link" to="/PlayLists">
+            PlayLists
+          </Link>
         </li>
         <li className="sidebar-item">
-          <Link className="sidebar-item-link" to="/Singles">Singles</Link>
+          <Link className="sidebar-item-link" to="/Singles">
+            Singles
+          </Link>
         </li>
         <li className="sidebar-item">
-          <Link className="sidebar-item-link" to="/Albums">Albums</Link>
+          <Link className="sidebar-item-link" to="/Albums">
+            Albums
+          </Link>
         </li>
       </ul>
     </aside>
