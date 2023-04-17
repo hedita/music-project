@@ -1,5 +1,8 @@
-.sidebar {
-  display: flex;
-	justify-content: space-between;
-	flex-direction: column;
+.sidebar-item {
+  line-height: 30px;
+}
+
+.sidebar-item-link {
+  text-decoration: none;
+  color: white;
 }

@@ -1,14 +1,23 @@
 import React from "react";
+import "./Singles.scss";
 
 const Singles = () => {
   return (
-    <div className="wrapper">
-      <Header />
-      <div className="content">
-        <Sidebar />
-        <MusicList />
-      </div>
-    </div>
+    <>
+      <h1 className="singles-title">Singles</h1>
+      <ul className="music-list">
+        <li>music</li>
+        <li>music</li>
+        <li>music</li>
+        <li>music</li>
+        <li>music</li>
+        <li>music</li>
+        <li>music</li>
+        <li>music</li>
+        <li>music</li>
+        <li>music</li>
+      </ul>
+    </>
   );
 };
 

@@ -1,15 +1,31 @@
 import React from "react";
 import "./Sidebar.scss";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   return (
-    <aside className="sidebar">
-      <ul>
-        <li className="sidebar-iem">sidebar</li>
-        <li>sidebar</li>
-        <li>sidebar</li>
-        <li>sidebar</li>
-        <li>sidebar</li>
+    <aside>
+      <ul className="sidebar">
+        <li className="sidebar-item">
+          <Link className="sidebar-item-link" to={"/"}>
+            Home
+          </Link>
+        </li>
+        <li className="sidebar-item">
+          <Link className="sidebar-item-link" to="/PlayLists">
+            PlayLists
+          </Link>
+        </li>
+        <li className="sidebar-item">
+          <Link className="sidebar-item-link" to="/Singles">
+            Singles
+          </Link>
+        </li>
+        <li className="sidebar-item">
+          <Link className="sidebar-item-link" to="/Albums">
+            Albums
+          </Link>
+        </li>
       </ul>
     </aside>
   );
