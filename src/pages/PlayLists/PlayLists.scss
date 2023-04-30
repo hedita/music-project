@@ -8,3 +8,12 @@
 .playlist-item {
   margin-bottom: $sizing-m;
 }
+
+.wrapper {
+  display: flex;
+  margin-top: $sizing-xl;
+}
+
+.playlist {
+  margin-left: $sizing-xl;
+}

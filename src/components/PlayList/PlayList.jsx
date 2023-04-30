@@ -4,15 +4,13 @@ const PlayList = () => {
   return (
     <div className="wrapper">
       <h2 className="playlist-title">Playlist</h2>
-      <div className="content">
-        <ul>
-          <li className="playlist-item">1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-        </ul>
-      </div>
+      <ul className="content">
+        <li className="playlist-item">1</li>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+      </ul>
     </div>
   );
 };

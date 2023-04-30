@@ -1,21 +1,9 @@
 import React from "react";
 import "./MusicList.scss";
+import MusicItem from "../MusicItem/MusicItem";
 
 const MusicList = () => {
-  return (
-    <ul className="music-list">
-      <li>music</li>
-      <li>music</li>
-      <li>music</li>
-      <li>music</li>
-      <li>music</li>
-      <li>music</li>
-      <li>music</li>
-      <li>music</li>
-      <li>music</li>
-      <li>music</li>
-    </ul>
-  );
+  return <MusicItem />;
 };
 
 export default MusicList;
