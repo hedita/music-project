@@ -5,7 +5,7 @@ import "./MusicItem.scss";
 const MusicItem = () => {
   const musicList = list.albums.items;
 
-  console.log(musicList);
+  console.log(list);
   const musics = musicList.map(({ name, id, images }) => {
     return (
       <ul key={id} className="music-list">

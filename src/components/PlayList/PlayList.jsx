@@ -1,16 +1,13 @@
 import React from "react";
+import PlayListItem from "../PlayListItem/PlayListItem";
+import Sidebar from "../../components/Sidebar/Sidebar";
 
 const PlayList = () => {
   return (
     <div className="wrapper">
+      <Sidebar />
       <h2 className="playlist-title">Playlist</h2>
-      <ul className="content">
-        <li className="playlist-item">1</li>
-        <li>1</li>
-        <li>1</li>
-        <li>1</li>
-        <li>1</li>
-      </ul>
+      <PlayListItem />;
     </div>
   );
 };
