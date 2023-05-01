@@ -1,5 +1,5 @@
 import React from "react";
-import playlists from "../../assets/Playlists.json"
+import playlists from "../../assets/Playlists.json";
 import "./PlayListItem.scss";
 
 const PlayListItem = () => {
@@ -8,7 +8,9 @@ const PlayListItem = () => {
   const playListItem = playListsItems.map(({ external_urls, id, name }) => {
     return (
       <li key={id}>
-        <a href={external_urls.spotify} className="playlist-item">{name}</a>
+        <a href={external_urls.spotify} className="playlist-item">
+          {name}
+        </a>
       </li>
     );
   });

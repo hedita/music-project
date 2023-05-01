@@ -5,15 +5,15 @@ import "./PlayList.scss";
 
 const PlayList = () => {
   return (
-  <div className="content">
-    <Sidebar />
-    <div className="title-playlist-container">
-      <h1 className="title">Playlists</h1>
-      <ul className="playlist">
-        <PlayListItem />
-      </ul>
+    <div className="content">
+      <Sidebar />
+      <div className="title-playlist-container">
+        <h1 className="title">Playlists</h1>
+        <ul className="playlist">
+          <PlayListItem />
+        </ul>
+      </div>
     </div>
-  </div>
   );
 };
 
