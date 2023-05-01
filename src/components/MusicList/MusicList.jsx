@@ -3,7 +3,11 @@ import "./MusicList.scss";
 import MusicItem from "../MusicItem/MusicItem";
 
 const MusicList = () => {
-  return <MusicItem />;
+  return (
+    <ul className="music-list">
+      <MusicItem />
+    </ul>
+  );
 };
 
 export default MusicList;
