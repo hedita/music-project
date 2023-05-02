@@ -1,11 +1,16 @@
 import React from "react";
 import "./MusicList.scss";
 import MusicItem from "../MusicItem/MusicItem";
+import list from "../../assets/list.json";
 
 const MusicList = () => {
   return (
     <ul className="music-list">
-      <MusicItem />
+      {list.albums.items.map(({ name, artists, album_type, id, images }) => {
+        if (album_type === "single" || "album") {
+          return <MusicItem key={id} name={name} artists={artists} id={id} images={images} />;
+        }
+      })}
     </ul>
   );
 };

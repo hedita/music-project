@@ -3,7 +3,6 @@ import playlists from "../../assets/Playlists.json";
 import "./PlayListItem.scss";
 
 const PlayListItem = () => {
-
   return playlists.playlists.items.map(({ external_urls, id, name }) => {
     return (
       <li key={id}>

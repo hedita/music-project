@@ -1,12 +1,9 @@
 import React from "react";
-import list from "../../assets/list.json";
 import "./MusicItem.scss";
 
-const MusicItem = () => {
-
-  return list.albums.items.map(({ name,artists, id, images }) => {
+const MusicItem = ({ id, name, images, artists }) => {
     return (
-      <li key={id} className="music-item">
+      <li className="music-item">
         <figure>
           <img id="music-item-img" src={images[1].url} />
           <figcaption>{name}</figcaption>
@@ -14,7 +11,6 @@ const MusicItem = () => {
         </figure>
       </li>
     );
-  });
 };
 
 export default MusicItem;

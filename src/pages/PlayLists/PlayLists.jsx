@@ -7,7 +7,7 @@ import Header from "../../components/Header/Header";
 const PlayLists = () => {
   return (
     <>
-      <Header title={"Playlists"}/>
+      <Header title={"Playlists"} />
       <div className="content">
         <Sidebar />
         <PlayList />

@@ -3,3 +3,8 @@
 .singles-list {
   margin-left: $sizing-s;
 }
+
+.music-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}

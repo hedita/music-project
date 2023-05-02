@@ -7,7 +7,7 @@ import Header from "../../components/Header/Header";
 const Albums = () => {
   return (
     <>
-      <Header title={"Albums"}/>
+      <Header title={"Albums"} />
       <div className="content">
         <Sidebar />
         <AlbumsList />
