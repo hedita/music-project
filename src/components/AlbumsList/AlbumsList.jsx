@@ -8,7 +8,15 @@ const AlbumsList = () => {
     <ul className="music-list">
       {list.albums.items.map(({ name, artists, album_type, id, images }) => {
         if (album_type === "album") {
-          return <AlbumsItem key={id} name={name} artists={artists} id={id} images={images} />;
+          return (
+            <AlbumsItem
+              key={id}
+              name={name}
+              artists={artists}
+              id={id}
+              images={images}
+            />
+          );
         }
       })}
     </ul>
