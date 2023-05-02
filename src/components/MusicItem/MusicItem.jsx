@@ -5,7 +5,7 @@ import "./MusicItem.scss";
 const MusicItem = () => {
   const musicList = list.albums.items;
 
-  const musics = musicList.map(({ name, id, images, artists }) => {
+  const musics = musicList.map(({ name, id, images }) => {
     return (
       <li key={id} className="music-item">
         <figure>
