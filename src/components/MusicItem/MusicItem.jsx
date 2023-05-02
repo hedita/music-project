@@ -1,7 +1,7 @@
 import React from "react";
 import "./MusicItem.scss";
 
-const MusicItem = ({ id, name, images, artists }) => {
+const MusicItem = ({ name, images, artists }) => {
   return (
     <li className="music-item">
       <figure>

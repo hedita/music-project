@@ -1,5 +1,5 @@
 import React from "react";
-import AlbumsItem from "../AlbumsItem/AlbumsItem";
+import MusicItem from "../MusicItem/MusicItem";
 import "./AlbumsList.scss";
 import list from "../../assets/list.json";
 
@@ -9,7 +9,7 @@ const AlbumsList = () => {
       {list.albums.items.map(({ name, artists, album_type, id, images }) => {
         if (album_type === "album") {
           return (
-            <AlbumsItem
+            <MusicItem
               key={id}
               name={name}
               artists={artists}

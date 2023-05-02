@@ -1,5 +1,5 @@
 import React from "react";
-import SinglesItem from "../SinglesItem/SinglesItem";
+import MusicItem from "../MusicItem/MusicItem";
 import "./SinglesList.scss";
 import list from "../../assets/list.json";
 
@@ -9,7 +9,7 @@ const SinglesList = () => {
       {list.albums.items.map(({ name, artists, album_type, id, images }) => {
         if (album_type === "single") {
           return (
-            <SinglesItem
+            <MusicItem
               key={id}
               name={name}
               artists={artists}
