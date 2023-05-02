@@ -3,9 +3,8 @@ import list from "../../assets/list.json";
 import "./MusicItem.scss";
 
 const MusicItem = () => {
-  const musicList = list.albums.items;
 
-  const musics = musicList.map(({ name, id, images }) => {
+  return list.albums.items.map(({ name, id, images }) => {
     return (
       <li key={id} className="music-item">
         <figure>
@@ -16,7 +15,6 @@ const MusicItem = () => {
       </li>
     );
   });
-  return musics;
 };
 
 export default MusicItem;
