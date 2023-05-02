@@ -12,11 +12,6 @@ const Sidebar = () => {
           </Link>
         </li>
         <li className="sidebar-item">
-          <Link className="sidebar-item-link" to="/PlayLists">
-            PlayLists
-          </Link>
-        </li>
-        <li className="sidebar-item">
           <Link className="sidebar-item-link" to="/Singles">
             Singles
           </Link>
@@ -24,6 +19,11 @@ const Sidebar = () => {
         <li className="sidebar-item">
           <Link className="sidebar-item-link" to="/Albums">
             Albums
+          </Link>
+        </li>
+        <li className="sidebar-item">
+          <Link className="sidebar-item-link" to="/PlayLists">
+            PlayLists
           </Link>
         </li>
       </ul>
