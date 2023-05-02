@@ -2,9 +2,7 @@ import React from "react";
 import list from "../../assets/list.json";
 
 const AlbumsItem = () => {
-  const albumsList = list.albums.items;
-
-  const result = albumsList.map(({ name, id, album_type, images }) => {
+  const result = list.albums.items.map(({ name, id, album_type, images }) => {
     if (album_type === "album") {
       return (
         <li key={id} className="music-item">
