@@ -7,7 +7,7 @@ import Sidebar from "../../components/Sidebar/Sidebar";
 const Home = () => {
   return (
     <>
-      <Header />
+      <Header title={"Home"}/>
       <div className="content">
         <Sidebar />
         <MusicList />

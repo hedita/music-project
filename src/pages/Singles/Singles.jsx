@@ -7,7 +7,7 @@ import Header from "../../components/Header/Header";
 const Singles = () => {
   return (
     <>
-      <Header />
+      <Header title={"Singles"} />
       <div className="content">
         <Sidebar />
         <SinglesList />
