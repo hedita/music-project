@@ -1,13 +1,13 @@
 import React from "react";
-import "./MusicList.scss";
 import MusicItem from "../MusicItem/MusicItem";
+import "./SinglesList.scss";
 import list from "../../assets/list.json";
 
-const MusicList = () => {
+const SinglesList = () => {
   return (
     <ul className="music-list">
       {list.albums.items.map(({ name, artists, album_type, id, images }) => {
-        if (album_type === "single" || "album") {
+        if (album_type === "single") {
           return (
             <MusicItem
               key={id}
@@ -23,4 +23,4 @@ const MusicList = () => {
   );
 };
 
-export default MusicList;
+export default SinglesList;

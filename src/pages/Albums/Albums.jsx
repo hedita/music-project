@@ -1,22 +1,17 @@
 import React from "react";
 import "./Albums.scss";
+import AlbumsList from "../../components/AlbumsList/AlbumsList";
+import Sidebar from "../../components/Sidebar/Sidebar";
+import Header from "../../components/Header/Header";
 
 const Albums = () => {
   return (
     <>
-      <h1 className="title">Albums</h1>
-      <ul className="music-list">
-        <li>music</li>
-        <li>music</li>
-        <li>music</li>
-        <li>music</li>
-        <li>music</li>
-        <li>music</li>
-        <li>music</li>
-        <li>music</li>
-        <li>music</li>
-        <li>music</li>
-      </ul>
+      <Header title={"Albums"} />
+      <div className="content">
+        <Sidebar />
+        <AlbumsList />
+      </div>
     </>
   );
 };

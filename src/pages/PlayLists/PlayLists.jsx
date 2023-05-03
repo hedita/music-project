@@ -1,20 +1,18 @@
 import React from "react";
 import "./PlayLists.scss";
+import PlayList from "../../components/PlayList/PlayList";
+import Sidebar from "../../components/Sidebar/Sidebar";
+import Header from "../../components/Header/Header";
 
 const PlayLists = () => {
   return (
-    <div className="wrapper">
-      <h2 className="playlist-title">Playlist</h2>
+    <>
+      <Header title={"Playlists"} />
       <div className="content">
-        <ul>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-        </ul>
+        <Sidebar />
+        <PlayList />
       </div>
-    </div>
+    </>
   );
 };
 

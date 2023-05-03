@@ -1,4 +1,19 @@
+@import "../../components/Variables.scss";
+
 .playlist-title {
-  border-bottom: 4px solid white;
-  margin-bottom: 10px;
+  border-bottom: $sizing-xs solid $secondary-color;
+  margin-bottom: $sizing-m;
+}
+
+.playlist-item {
+  margin-bottom: $sizing-m;
+}
+
+.wrapper {
+  display: flex;
+  margin-top: $sizing-xl;
+}
+
+.playlist {
+  margin-left: $sizing-xl;
 }

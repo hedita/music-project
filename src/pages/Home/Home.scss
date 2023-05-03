@@ -1,13 +1,12 @@
+@import "../../components/Variables.scss";
+
 body {
-  background-color: rgb(19, 16, 16);
-  color: white;
+  background-color: $primary-color;
+  color: $secondary-color;
+  font-family: $font-family;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
-}
-
-.content {
-  display: flex;
 }

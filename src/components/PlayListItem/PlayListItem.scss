@@ -1,0 +1,7 @@
+@import "../../components/Variables.scss";
+
+.playlist-item {
+  text-decoration: none;
+  color: $secondary-color;
+  line-height: $sizing-l;
+}

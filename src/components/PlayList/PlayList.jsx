@@ -1,19 +1,15 @@
 import React from "react";
+import PlayListItem from "../PlayListItem/PlayListItem";
+import "./PlayList.scss";
+import playlists from "../../assets/Playlists.json";
 
 const PlayList = () => {
   return (
-    <div className="wrapper">
-      <h2 className="playlist-title">Playlist</h2>
-      <div className="content">
-        <ul>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-        </ul>
-      </div>
-    </div>
+    <ul className="playlist">
+      {playlists.playlists.items.map(({ external_urls, id, name }) => {
+        return <PlayListItem key={id} external_urls={external_urls} name={name} />;
+      })}
+    </ul>
   );
 };
 

@@ -1,22 +1,17 @@
 import React from "react";
 import "./Singles.scss";
+import SinglesList from "../../components/SinglesList/SinglesList";
+import Sidebar from "../../components/Sidebar/Sidebar";
+import Header from "../../components/Header/Header";
 
 const Singles = () => {
   return (
     <>
-      <h1 className="singles-title">Singles</h1>
-      <ul className="music-list">
-        <li>music</li>
-        <li>music</li>
-        <li>music</li>
-        <li>music</li>
-        <li>music</li>
-        <li>music</li>
-        <li>music</li>
-        <li>music</li>
-        <li>music</li>
-        <li>music</li>
-      </ul>
+      <Header title={"Singles"} />
+      <div className="content">
+        <Sidebar />
+        <SinglesList />
+      </div>
     </>
   );
 };
